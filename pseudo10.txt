@@ -1,0 +1,23 @@
+﻿programTask_10
+set a = 1234;
+set b = 4321;
+set c = 9999;
+if !(a >= 1000 && a < 10000)then
+print "{a}-dord reqemli deyil"
+return;
+ENDIF;
+if !(b >= 1000 && b < 10000)then
+print "{b}-dord reqemli deyil"
+return;
+ENDIF;
+if !(c >= 1000 && c < 10000)then
+print "{c}-dord reqemli deyil"
+return;
+ENDIF;
+compute a = a * 1 / 100.0;
+compute b = b * 2 / 100.0;
+compute c = c * 3 / 100.0;
+set substract = a-b-c;
+compute substract = substract + c * 7 / 100.0;
+print substrackt;
+endprogram;

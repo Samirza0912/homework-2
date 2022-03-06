@@ -1,2 +1,2 @@
-﻿program;
-set
+﻿program task_1;
+set a = 
