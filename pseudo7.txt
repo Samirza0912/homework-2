@@ -1,1 +1,22 @@
-﻿
+﻿programTask_7;
+set a = 12345;
+set b = 54321;
+if !(a > 9999 && a < 100000)then
+print "{a}-5 reqemli deyil"
+return;
+ENDIF;
+if !(b > 9999 && b < 100000)then
+print "{b}-5 reqemli deyil"
+return;
+ENDIF;
+set sum = a+b;
+if (sum > 9999 && sum < 100000)then
+compute sum = sum + 500000;
+compute sum = sum * 10 + 5;
+else if (sum > 99999 && sum < 1000000) then
+compute sum = sum + 5000000;
+compute sum = sum * 10 + 5;
+ENDIF;
+compute = sum * 5 / 100;
+print sum;
+endprogram; 

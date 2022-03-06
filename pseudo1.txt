@@ -1,2 +1,10 @@
 ﻿program task_1;
-set a = 
+set a = 1234;
+if !(a >= 1000 && a < 10000) then
+print "{a}-dord reqemli deyil"
+return;
+ENDIF;
+compute a = a + 70000;
+compute a = a * 10 + 8;
+print a
+endprogram;

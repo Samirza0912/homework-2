@@ -1,1 +1,17 @@
-﻿
+﻿programTask_8
+set a = 1234;
+set b = 1234567;
+if !(a >= 1000 && a < 10000) them
+print "{a}-dord reqemli deyil"
+return;
+ENDIF;
+if !(b >= 1000000 && b < 10000000)then
+print "{b}-yeddi reqemli deyil"
+return;
+ENDIF;
+compute a = a * 4 / 100.0;
+compute b = b * 9 / 100.0;
+set sum = a+b;
+compute sum = sum * 10 / 1000;
+print sum;
+endprogram;

@@ -1,2 +1,9 @@
-﻿program
-set a = 123;
+﻿programTask_2;
+set a = 1234;
+if !(a > 99 && a < 1000)then
+print "{a}-uc reqemli deyil"
+return;
+ENDIF;
+compute a = a * 1000 + a;
+print a;
+endprogram;

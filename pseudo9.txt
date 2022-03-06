@@ -1,1 +1,23 @@
-﻿
+﻿programTask_9
+set a = 123456;
+set b = 654321;
+set c = 999999;
+if !(a >= 100000 && a < 1000000)then
+print "{a}-6 reqemli deyil"
+return;
+ENDIF;
+if !(b >= 100000 && b < 1000000)then
+print "{b}-6 reqemli deyil"
+return;
+ENDIF;
+if !(c >= 100000 && c < 1000000)then
+print "{c}-6 reqemli deyil"
+return;
+ENDIF;
+compute a = a * 10 / 100.0;
+compute b = b * 10 / 100.0;
+compute c = c * 10 / 100.0;
+set sum = a+b+c;
+compute sum = sum * 10 / 100;
+print sum;
+endprogram;

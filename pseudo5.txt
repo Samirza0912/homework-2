@@ -1,1 +1,11 @@
-﻿
+﻿programTask_5
+set a = 1234;
+if !(a >= 1000 && a < 10000) then
+print "{a}-dord reqemli deyil"
+return;
+ENDIF;
+compute a = a + 40000;
+compute a = a * 100 + 44;
+compute a = a * 44 / 100;
+print a;
+endprogram;

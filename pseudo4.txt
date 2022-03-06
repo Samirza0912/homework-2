@@ -1,1 +1,10 @@
-﻿
+﻿programTask_4
+set a = 123;
+if !(a > 99 && a < 1000)then
+print "{a}-uc reqemli deyil"
+return;
+ENDIF;
+compute a = a * 10 + 7;
+compute a = a * 7 / 100.0;
+print a;
+endprogram;
