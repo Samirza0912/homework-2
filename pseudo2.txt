@@ -1,0 +1,2 @@
+﻿program
+set a = 123;
