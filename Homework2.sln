@@ -36,6 +36,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F209970-A92A-4709-8A70-3D85F40A6003}"
 	ProjectSection(SolutionItems) = preProject
 		pseudo1.txt = pseudo1.txt
+		pseudo2.txt = pseudo2.txt
 	EndProjectSection
 EndProject
 Global
