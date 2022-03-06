@@ -33,6 +33,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-14", "task-14\task-14.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-15", "task-15\task-15.csproj", "{694DF653-441F-4B1B-919C-D7E70A6B5A3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F209970-A92A-4709-8A70-3D85F40A6003}"
+	ProjectSection(SolutionItems) = preProject
+		pseudo1.txt = pseudo1.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
